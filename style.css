@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, #141e30, #243b55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 0 2em 1em;
+    border-radius: 1em;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container img {
+    width: 100%; 
+    padding-top: 10px;
+    border-radius: 1000%;
+}
+
+p {
+    font-weight: 400;
+}
